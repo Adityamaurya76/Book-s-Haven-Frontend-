@@ -1,0 +1,40 @@
+.Hero{
+   height: 80vh;
+   background-image: url('../../assets//background_image.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   .hero-container{
+    height: 100%;
+    flex-direction: column; 
+    background-color: rgba(0, 0, 0, 0.5);
+    gap: 10px;
+    text-align: center;
+
+    .heading{
+        color: white;
+        font-size: 3rem;
+    }
+    .sunheading{
+        color: whitesmoke;
+        font-size: 1.2rem;
+    }
+    .cta{
+        margin-top: 16px;
+        
+    }
+   }
+}
+@media  screen and (max-width :640px){
+  .Hero{
+    height: 60vh;
+    .hero-container{
+        .heading{
+            font-size: 2rem;
+        }
+        .sunheading{
+            font-size: 1rem;
+        }
+    }
+  }
+}
